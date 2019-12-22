@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 from telebot.types import Message
 import Pars as p
-TOKEN = '934588759:AAGZLc_5-hfd824gkwCGyn3_TZKiP6abtSg'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 ans_f = p.get_football()
