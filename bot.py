@@ -20,7 +20,7 @@ def send_anything(message):
         text1 = '👇🏻 вот список матчей по футболу'
         bot.send_message(chat_id, text1)
         for i in range(len(ans_f)):
-            bot.send_message(chat_id, 'ДАТА {} в {} 💥💥💥💥💥 {} 🔛 {}'.format(ans_f[i][1],ans_f[i][0],ans_f[i][2],ans_f[i][3]))
+            bot.send_message(chat_id, '{} ДАТА {} в {} 💥💥💥💥💥 {} 🔛 {}'.format(ans_f[i][4],ans_f[i][2],ans_f[i][3],ans_f[i][0],ans_f[i][1]))
     elif message.text == '🏀 Basketball':
         text2 = '👇🏻 вот список матчей по баскетболу'
         bot.send_message(chat_id, text2)
